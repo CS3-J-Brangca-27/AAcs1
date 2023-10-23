@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Crochet">
+    <meta name="author" content="Jaira Brangca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane's Hooks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Gruppo&family=Lobster+Two&display&Limelight=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Gruppo&family=Lobster+Two&family=Playpen+Sans&display&Limelight=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="background.jpg" class="bg">
+    <img src="Logo.jpg" alt="Description of the image" class="logo">
+    <div class="block"></div>
+    <div class="header">
+        <h1>Jane's Hooks</h1>
+    </div>
+    <div class="header2"></div>
+    <div class="cc">
+        <div class="content">
+            <h1>Crochet patterns</h1>
+            <img src="CrochetPatterns.jpg" class="image1">
+        </div>
+    </div>
+    <div class="cc2">
+        <div class="content1">
+            <h1>Basic crochet materials</h1>
+            <img src="CrochetMaterials.jpg" class="image2">
+        </div>
+    </div>
+    <div class="cc3">
+        <div class="content2">
+            <h1>Shop</h1>
+            <img src="Shop.jpg" class="image3">
+        </div>
+	<div class="small-boxes">
+    <div class="small-box"><a href="index.html">Home</a></div>
+    <div class="small-box"><a href="Page2.html">Prologue</a></div>
+    <div class="small-box">Contacts</div>
+  </div>
+    </div>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+        .block {
+            position: fixed;
+            width: 100%;
+            background: rgba(148, 122, 111, 0.8);
+            border-bottom: solid black;
+            padding: 60px;
+        }
+        .header {
+            position: fixed;
+            left: 170px;
+            font-size: 22px;
+            color: rgba(37, 22, 0, 0.8);
+            margin-bottom: 20px;
+						font-family: 'Audiowide', sans-serif;
+						font-family: 'Gruppo', sans-serif;
+						font-family: 'Lobster Two', sans-serif;
+        }
+        .header2 {
+            position: absolute;
+            top: 80px;
+            left: 100px;
+            font-size: 15px;
+            font-family: arial;
+        }
+		.header h1::after {
+            content: "Stress Flies When You Crochet";
+            font-family: 'Limelight-regular', cursive;
+            display: block;
+            font-size: 18px;
+			position: fixed;
+			top: -10;
+        }
+        .small-boxes {
+      display: flex;
+      align-items: flex-start;
+	  top:0;
+      margin-bottom: 20px; /* Adjust the margin to move the boxes down */
+	  font-family: 'Limelight-regular', cursive;
+    }
+    .small-box {
+      width: 100px;
+      height: 40px;
+	  top: 0;
+      margin-left: 10px;
+      text-align: center;
+      position: relative;
+	  font-family: 'Limelight-regular', cursive;
+    }
+    .small-box h2 {
+      color: white;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+	  font-family: 'Limelight-regular', cursive;
+    }
+	.small-boxes {
+    position: absolute;
+    bottom: 110px;
+    right: 0;
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+    font-family: 'Limelight-regular', cursive;
+}
+
+.small-box {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+    .small-box:nth-child(1) {
+      background-color: rgba(180, 158, 146, 0.5);
+    }
+    .small-box:nth-child(2) {
+      background-color: rgba(213, 198, 179, 0.5);
+    }
+    .small-box:nth-child(3) {
+      background-color: rgba(180, 158, 146, 0.5);
+    }
+        .cc {
+            position: absolute;
+            top: 120px;
+            left: 50px;
+        }
+        .content {
+            color: rgba(90, 74, 68, 0.8);
+            font-size: 15px;
+						font-family: 'Audiowide', sans-serif;
+						font-family: 'Gruppo', sans-serif;
+						font-family: 'Lobster Two', sans-serif;
+						font-family: 'Playpen Sans', cursive;
+            border: solid rgba(226, 213, 194, 0.8);
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 40px;
+            background: rgba(194, 163, 150, 0.8);
+        }
+        .cc2 {
+            position: fixed;
+            top: 450px;
+            left: 50px;
+        }
+        .content1 {
+            color: rgba(90, 74, 68, 0.8);
+            font-size: 15px;
+						font-family: 'Audiowide', sans-serif;
+						font-family: 'Gruppo', sans-serif;
+						font-family: 'Lobster Two', sans-serif;
+						font-family: 'Playpen Sans', cursive;
+            border: solid rgba(192, 166, 156, 0.8);
+            margin-left: 400px;
+            margin-top: 40px;
+            background: rgba(192, 166, 156, 0.8);
+            text-align: center;
+        }
+        .cc3 {
+            position: absolute;
+            top: 120px;
+            left: 850px;
+        }
+        .content2 {
+            color: rgba(90, 74, 68, 0.8);
+            font-size: 15px;
+						font-family: 'Audiowide', sans-serif;
+						font-family: 'Gruppo', sans-serif;
+						font-family: 'Lobster Two', sans-serif;
+						font-family: 'Playpen Sans', cursive;
+            border: solid rgba(226, 213, 194, 0.8);
+            padding-left: 135px;
+						text-align: center;
+            padding-right: 135px;
+            margin-top: 40px;
+            background: rgba(194, 163, 150, 0.8);
+        }
+        .logo {
+            position: absolute;
+            z-index: 999;
+            width: 100px;
+            top: 10px;
+            left: 20px;
+        }
+        .image1 {
+            position: fixed;
+            width: 350px;
+            height: 370px;
+            overflow: hidden;
+            top: 230px;
+            left: 50px;
+        }
+        .image2 {
+            position: fixed;
+            width: 350px;
+            height: 350px;
+            overflow: hidden;
+            top: 160px;
+            left: 450px;
+        }
+        .image3 {
+            position: fixed;
+            width: 350px;
+            height: 370px;
+            overflow: hidden;
+            top: 250px;
+            left: 850px;
+        }
+        .bg {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            opacity: 0.3;
+        }
+    </style>
+</body>
+</html>
